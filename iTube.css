@@ -1,11 +1,21 @@
 body {
     display: flex;
     flex-direction: column;
+    gap: 0.25em;
+}
+
+h1 {
+    margin: 0;
+}
+
+input {
+    border-radius: 0.5em;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .main-content {
@@ -15,12 +25,24 @@ body {
 .burger-zone {
     display: flex;
     gap: 0.25em;
+    align-items: center;
 }
 
 .side-menu {
     display: flex;
     flex-direction: column;
     gap: 0.25em;
+    align-items: flex-end;
+}
+
+.menu-item {
+    border-radius: 1em;
+    background: lightgrey;
+    height: 3em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .videos {
@@ -32,10 +54,16 @@ body {
 }
 
 .tag-space {
+    margin-left: 0.5em;
     display: flex;
     gap: 0.25em;
 }
 
+.tag {
+    padding: 0.25em 1em;
+    border-radius: 0.5em;
+    background-color: lightblue;
+}
 .video-row {
     display: flex;
     gap: 0.25em;
